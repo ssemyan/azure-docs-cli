@@ -12,7 +12,7 @@ isPreview: true
 previewOrExperimentalInfo: 'This command group is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus'
 sourceType: Extension
 directCommands:
-- uid: az_fleet_create(fleet)
+- uid: az_fleet_create
   name: az fleet create
   summary: |-
     Creates or updates a Fleet.
@@ -89,7 +89,7 @@ directCommands:
   - name: --tags
     summary: |-
       The tags of the managed cluster. The managed cluster instance and all resources managed by the cloud provider will be tagged.
-- uid: az_fleet_delete(fleet)
+- uid: az_fleet_delete
   name: az fleet delete
   summary: |-
     Deletes a Fleet.
@@ -115,7 +115,7 @@ directCommands:
     defaultValue: "False"
     summary: |-
       Do not wait for the long-running operation to finish.
-- uid: az_fleet_get-credentials(fleet)
+- uid: az_fleet_get-credentials
   name: az fleet get-credentials
   summary: |-
     Lists the user credentials of a Fleet.
@@ -150,7 +150,7 @@ directCommands:
     defaultValue: "False"
     summary: |-
       Overwrite any existing cluster entry with the same name.
-- uid: az_fleet_list(fleet)
+- uid: az_fleet_list
   name: az fleet list
   summary: |-
     Lists fleets in the specified subscription and resource group.
@@ -163,7 +163,7 @@ directCommands:
   - name: --resource-group -g
     summary: |-
       Name of resource group. You can configure the default group using `az configure --defaults group=<name>`.
-- uid: az_fleet_show(fleet)
+- uid: az_fleet_show
   name: az fleet show
   summary: |-
     Gets a Fleet.
@@ -183,7 +183,7 @@ directCommands:
     name: --resource-group -g
     summary: |-
       Name of resource group. You can configure the default group using `az configure --defaults group=<name>`.
-- uid: az_fleet_update(fleet)
+- uid: az_fleet_update
   name: az fleet update
   summary: |-
     Patches a fleet resource.
@@ -224,7 +224,7 @@ directCommands:
   - name: --tags
     summary: |-
       The tags of the managed cluster. The managed cluster instance and all resources managed by the cloud provider will be tagged.
-- uid: az_fleet_wait(fleet)
+- uid: az_fleet_wait
   name: az fleet wait
   summary: |-
     Wait for a fleet resource to reach a desired state.
@@ -282,34 +282,34 @@ directCommands:
     summary: |-
       Wait until updated with provisioningState at 'Succeeded'.
 commands:
-- az_fleet_create(fleet)
-- az_fleet_delete(fleet)
-- az_fleet_get-credentials(fleet)
-- az_fleet_list(fleet)
+- az_fleet_create
+- az_fleet_delete
+- az_fleet_get-credentials
+- az_fleet_list
 - az_fleet_member
-- az_fleet_member_create(fleet)
-- az_fleet_member_delete(fleet)
-- az_fleet_member_list(fleet)
-- az_fleet_member_show(fleet)
-- az_fleet_member_update(fleet)
-- az_fleet_member_wait(fleet)
-- az_fleet_show(fleet)
-- az_fleet_update(fleet)
+- az_fleet_member_create
+- az_fleet_member_delete
+- az_fleet_member_list
+- az_fleet_member_show
+- az_fleet_member_update
+- az_fleet_member_wait
+- az_fleet_show
+- az_fleet_update
 - az_fleet_updaterun
-- az_fleet_updaterun_create(fleet)
-- az_fleet_updaterun_delete(fleet)
-- az_fleet_updaterun_list(fleet)
-- az_fleet_updaterun_show(fleet)
-- az_fleet_updaterun_start(fleet)
-- az_fleet_updaterun_stop(fleet)
-- az_fleet_updaterun_wait(fleet)
+- az_fleet_updaterun_create
+- az_fleet_updaterun_delete
+- az_fleet_updaterun_list
+- az_fleet_updaterun_show
+- az_fleet_updaterun_start
+- az_fleet_updaterun_stop
+- az_fleet_updaterun_wait
 - az_fleet_updatestrategy
-- az_fleet_updatestrategy_create(fleet)
-- az_fleet_updatestrategy_delete(fleet)
-- az_fleet_updatestrategy_list(fleet)
-- az_fleet_updatestrategy_show(fleet)
-- az_fleet_updatestrategy_wait(fleet)
-- az_fleet_wait(fleet)
+- az_fleet_updatestrategy_create
+- az_fleet_updatestrategy_delete
+- az_fleet_updatestrategy_list
+- az_fleet_updatestrategy_show
+- az_fleet_updatestrategy_wait
+- az_fleet_wait
 globalParameters:
 - name: --debug
   summary: |-

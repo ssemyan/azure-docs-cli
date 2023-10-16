@@ -10,7 +10,7 @@ summary: |-
 status: GA
 sourceType: Core and Extension
 directCommands:
-- uid: az_netappfiles_volume_break-file-locks()
+- uid: az_netappfiles_volume_break-file-locks
   name: az netappfiles volume break-file-locks
   summary: |-
     Break file locks.
@@ -63,7 +63,7 @@ directCommands:
     defaultValue: "False"
     summary: |-
       Do not prompt for confirmation.
-- uid: az_netappfiles_volume_create()
+- uid: az_netappfiles_volume_create
   name: az netappfiles volume create
   summary: |-
     Create a new Azure NetApp Files (ANF) volume. Export policies are applied with the subgroup commands but note that volumes are always created with a default export policy.
@@ -416,7 +416,7 @@ directCommands:
   - name: --tags
     summary: |-
       A list of space separated tags to apply to the volume.
-- uid: az_netappfiles_volume_delete()
+- uid: az_netappfiles_volume_delete
   name: az netappfiles volume delete
   summary: |-
     Delete the specified ANF volume.
@@ -500,7 +500,7 @@ directCommands:
   - name: --volume-name -n -v
     summary: |-
       The name of the ANF volume.
-- uid: az_netappfiles_volume_finalize-relocation()
+- uid: az_netappfiles_volume_finalize-relocation
   name: az netappfiles volume finalize-relocation
   summary: |-
     Finalizes the relocation of the Azure NetApp Files (ANF) volume and cleans up the old volume.
@@ -542,7 +542,7 @@ directCommands:
   - name: --subscription
     summary: |-
       Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
-- uid: az_netappfiles_volume_get-groupid-list-for-ldapuser()
+- uid: az_netappfiles_volume_get-groupid-list-for-ldapuser
   name: az netappfiles volume get-groupid-list-for-ldapuser
   description: |-
     Returns the list of group Ids for a specific LDAP User.
@@ -590,7 +590,7 @@ directCommands:
   - name: --subscription
     summary: |-
       Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
-- uid: az_netappfiles_volume_list()
+- uid: az_netappfiles_volume_list
   name: az netappfiles volume list
   summary: |-
     List the ANF Pools for the specified account.
@@ -646,7 +646,7 @@ directCommands:
     name: --resource-group -g
     summary: |-
       Name of resource group. You can configure the default group using `az configure --defaults group=<name>`.
-- uid: az_netappfiles_volume_pool-change()
+- uid: az_netappfiles_volume_pool-change
   name: az netappfiles volume pool-change
   summary: |-
     Change pool for an Azure NetApp Files (ANF) volume.
@@ -694,7 +694,7 @@ directCommands:
   - name: --subscription
     summary: |-
       Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
-- uid: az_netappfiles_volume_relocate()
+- uid: az_netappfiles_volume_relocate
   name: az netappfiles volume relocate
   summary: |-
     Relocates an Azure NetApp Files (ANF) volume to a new stamp.
@@ -740,7 +740,7 @@ directCommands:
   - name: --subscription
     summary: |-
       Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
-- uid: az_netappfiles_volume_reset-cifs-pw()
+- uid: az_netappfiles_volume_reset-cifs-pw
   name: az netappfiles volume reset-cifs-pw
   summary: |-
     Reset CIFS password from an Azure NetApp Files (ANF) volume.
@@ -782,7 +782,7 @@ directCommands:
   - name: --subscription
     summary: |-
       Name or ID of subscription. You can configure the default subscription using `az account set -s NAME_OR_ID`.
-- uid: az_netappfiles_volume_revert()
+- uid: az_netappfiles_volume_revert
   name: az netappfiles volume revert
   summary: |-
     Revert a volume to one of its snapshots.
@@ -828,7 +828,7 @@ directCommands:
     defaultValue: "False"
     summary: |-
       Do not wait for the long-running operation to finish.
-- uid: az_netappfiles_volume_revert-relocation()
+- uid: az_netappfiles_volume_revert-relocation
   name: az netappfiles volume revert-relocation
   summary: |-
     Reverts the Azure NetApp Files (ANF) volume relocation process, cleans up the new volume and starts using the former-existing volume.
@@ -875,7 +875,7 @@ directCommands:
     defaultValue: "False"
     summary: |-
       Do not prompt for confirmation.
-- uid: az_netappfiles_volume_show()
+- uid: az_netappfiles_volume_show
   name: az netappfiles volume show
   summary: |-
     Get the specified ANF volume.
@@ -949,7 +949,7 @@ directCommands:
   - name: --volume-name -n -v
     summary: |-
       The name of the ANF pool.
-- uid: az_netappfiles_volume_update()
+- uid: az_netappfiles_volume_update
   name: az netappfiles volume update
   summary: |-
     Update the specified ANF volume with the values provided. Unspecified values will remain unchanged. Export policies are amended/created with the subgroup commands.
@@ -1130,7 +1130,7 @@ directCommands:
   - name: --volume-name -n -v
     summary: |-
       The name of the ANF volume.
-- uid: az_netappfiles_volume_wait()
+- uid: az_netappfiles_volume_wait
   name: az netappfiles volume wait
   summary: |-
     Wait for a volume operation.
@@ -1199,55 +1199,55 @@ directCommands:
       Wait until updated with provisioningState at 'Succeeded'.
 commands:
 - az_netappfiles_volume_backup
-- az_netappfiles_volume_backup_create()
-- az_netappfiles_volume_backup_delete()
-- az_netappfiles_volume_backup_list()
-- az_netappfiles_volume_backup_restore-files()
-- az_netappfiles_volume_backup_restore-status()
-- az_netappfiles_volume_backup_show()
-- az_netappfiles_volume_backup_status()
-- az_netappfiles_volume_backup_update()
-- az_netappfiles_volume_backup_wait()
-- az_netappfiles_volume_break-file-locks()
-- az_netappfiles_volume_create()
+- az_netappfiles_volume_backup_create
+- az_netappfiles_volume_backup_delete
+- az_netappfiles_volume_backup_list
+- az_netappfiles_volume_backup_restore-files
+- az_netappfiles_volume_backup_restore-status
+- az_netappfiles_volume_backup_show
+- az_netappfiles_volume_backup_status
+- az_netappfiles_volume_backup_update
+- az_netappfiles_volume_backup_wait
+- az_netappfiles_volume_break-file-locks
+- az_netappfiles_volume_create
 - az_netappfiles_volume_create(netappfiles-preview)
-- az_netappfiles_volume_delete()
+- az_netappfiles_volume_delete
 - az_netappfiles_volume_delete(netappfiles-preview)
 - az_netappfiles_volume_export-policy
-- az_netappfiles_volume_export-policy_add()
-- az_netappfiles_volume_export-policy_list()
-- az_netappfiles_volume_export-policy_remove()
-- az_netappfiles_volume_export-policy_wait()
-- az_netappfiles_volume_finalize-relocation()
-- az_netappfiles_volume_get-groupid-list-for-ldapuser()
-- az_netappfiles_volume_list()
+- az_netappfiles_volume_export-policy_add
+- az_netappfiles_volume_export-policy_list
+- az_netappfiles_volume_export-policy_remove
+- az_netappfiles_volume_export-policy_wait
+- az_netappfiles_volume_finalize-relocation
+- az_netappfiles_volume_get-groupid-list-for-ldapuser
+- az_netappfiles_volume_list
 - az_netappfiles_volume_list(netappfiles-preview)
-- az_netappfiles_volume_pool-change()
+- az_netappfiles_volume_pool-change
 - az_netappfiles_volume_quota-rule
-- az_netappfiles_volume_quota-rule_create()
-- az_netappfiles_volume_quota-rule_delete()
-- az_netappfiles_volume_quota-rule_list()
-- az_netappfiles_volume_quota-rule_show()
-- az_netappfiles_volume_quota-rule_update()
-- az_netappfiles_volume_quota-rule_wait()
-- az_netappfiles_volume_relocate()
+- az_netappfiles_volume_quota-rule_create
+- az_netappfiles_volume_quota-rule_delete
+- az_netappfiles_volume_quota-rule_list
+- az_netappfiles_volume_quota-rule_show
+- az_netappfiles_volume_quota-rule_update
+- az_netappfiles_volume_quota-rule_wait
+- az_netappfiles_volume_relocate
 - az_netappfiles_volume_replication
-- az_netappfiles_volume_replication_approve()
-- az_netappfiles_volume_replication_list()
-- az_netappfiles_volume_replication_re-initialize()
-- az_netappfiles_volume_replication_remove()
-- az_netappfiles_volume_replication_resume()
-- az_netappfiles_volume_replication_status()
-- az_netappfiles_volume_replication_suspend()
-- az_netappfiles_volume_replication_wait()
-- az_netappfiles_volume_reset-cifs-pw()
-- az_netappfiles_volume_revert()
-- az_netappfiles_volume_revert-relocation()
-- az_netappfiles_volume_show()
+- az_netappfiles_volume_replication_approve
+- az_netappfiles_volume_replication_list
+- az_netappfiles_volume_replication_re-initialize
+- az_netappfiles_volume_replication_remove
+- az_netappfiles_volume_replication_resume
+- az_netappfiles_volume_replication_status
+- az_netappfiles_volume_replication_suspend
+- az_netappfiles_volume_replication_wait
+- az_netappfiles_volume_reset-cifs-pw
+- az_netappfiles_volume_revert
+- az_netappfiles_volume_revert-relocation
+- az_netappfiles_volume_show
 - az_netappfiles_volume_show(netappfiles-preview)
-- az_netappfiles_volume_update()
+- az_netappfiles_volume_update
 - az_netappfiles_volume_update(netappfiles-preview)
-- az_netappfiles_volume_wait()
+- az_netappfiles_volume_wait
 globalParameters:
 - name: --debug
   summary: |-

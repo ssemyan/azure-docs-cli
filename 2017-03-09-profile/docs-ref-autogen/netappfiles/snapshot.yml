@@ -10,7 +10,7 @@ summary: |-
 status: GA
 sourceType: Extension
 directCommands:
-- uid: az_netappfiles_snapshot_create(netappfiles-preview)
+- uid: az_netappfiles_snapshot_create
   name: az netappfiles snapshot create
   summary: |-
     Create a new Azure NetApp Files (ANF) snapshot.
@@ -57,7 +57,7 @@ directCommands:
   - name: --file-system-id
     summary: |-
       The uuid of the volume.
-- uid: az_netappfiles_snapshot_delete(netappfiles-preview)
+- uid: az_netappfiles_snapshot_delete
   name: az netappfiles snapshot delete
   summary: |-
     Delete the specified ANF snapshot.
@@ -97,7 +97,7 @@ directCommands:
   - name: --volume-name -v
     summary: |-
       The name of the ANF volume.
-- uid: az_netappfiles_snapshot_list(netappfiles-preview)
+- uid: az_netappfiles_snapshot_list
   name: az netappfiles snapshot list
   summary: |-
     List the snapshots of an ANF volume.
@@ -129,7 +129,7 @@ directCommands:
     name: --volume-name -n -v
     summary: |-
       The name of the ANF volume.
-- uid: az_netappfiles_snapshot_show(netappfiles-preview)
+- uid: az_netappfiles_snapshot_show
   name: az netappfiles snapshot show
   summary: |-
     Get the specified ANF snapshot.
@@ -170,10 +170,10 @@ directCommands:
     summary: |-
       The name of the ANF volume.
 commands:
-- az_netappfiles_snapshot_create(netappfiles-preview)
-- az_netappfiles_snapshot_delete(netappfiles-preview)
-- az_netappfiles_snapshot_list(netappfiles-preview)
-- az_netappfiles_snapshot_show(netappfiles-preview)
+- az_netappfiles_snapshot_create
+- az_netappfiles_snapshot_delete
+- az_netappfiles_snapshot_list
+- az_netappfiles_snapshot_show
 globalParameters:
 - name: --debug
   summary: |-

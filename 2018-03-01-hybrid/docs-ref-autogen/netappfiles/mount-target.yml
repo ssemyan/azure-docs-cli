@@ -10,7 +10,7 @@ summary: |-
 status: GA
 sourceType: Extension
 directCommands:
-- uid: az_netappfiles_mount-target_list(netappfiles-preview)
+- uid: az_netappfiles_mount-target_list
   name: az netappfiles mount-target list
   summary: |-
     List the mount targets of an ANF volume.
@@ -43,7 +43,7 @@ directCommands:
     summary: |-
       The name of the ANF pool.
 commands:
-- az_netappfiles_mount-target_list(netappfiles-preview)
+- az_netappfiles_mount-target_list
 globalParameters:
 - name: --debug
   summary: |-
