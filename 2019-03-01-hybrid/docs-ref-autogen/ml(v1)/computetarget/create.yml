@@ -179,8 +179,6 @@ directCommands:
       Description of the compute target.
   - name: --enable-node-public-ip
     defaultValue: "True"
-    summary: |-
-      Enable Node Public IP.
   - name: --idle-seconds-before-scaledown
     defaultValue: "1800"
     summary: |-
