@@ -194,7 +194,6 @@ commands:
 - az_mysql_flexible-server_backup_create
 - az_mysql_flexible-server_backup_list
 - az_mysql_flexible-server_backup_show
-- az_mysql_flexible-server_connect
 - az_mysql_flexible-server_create
 - az_mysql_flexible-server_db
 - az_mysql_flexible-server_db_create
@@ -205,7 +204,6 @@ commands:
 - az_mysql_flexible-server_deploy
 - az_mysql_flexible-server_deploy_run
 - az_mysql_flexible-server_deploy_setup
-- az_mysql_flexible-server_execute
 - az_mysql_flexible-server_export
 - az_mysql_flexible-server_export_create
 - az_mysql_flexible-server_firewall-rule
